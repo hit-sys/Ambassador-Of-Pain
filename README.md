@@ -1,20 +1,16 @@
-# Ambassador-Of-Pain
+# Ambassador of Pain - 64 Lines Of Code Are Enough
 Arcade Linux Game in 64 Lines of code
 
 # Installation
-Compile the source code:  
-        make  
-Install the binary:  
-        make install  
-Optionally, you can remove the executable (and other minor data)  
-from the source directory by typing:  
-        make clean  
-Play the game!  
-        aop  
-          or  
-        aop aop-level-1.txt .. aop-level-n.txt  
-  
-You are invited to design new levels and/or add nifty features as long as the resulting code is still <=64 lines!  
+Compile the source code by simply running "make".
+Play the game by running the executable with the level files as argument(s): "aop aop-level-1.txt .. aop-level-n.txt"
+
+# Contribute
+You are invited to design new levels and/or add nifty features as long as the resulting code is still <=64 lines!
+
+# Screenshot
+![Ambassador Of Pain Gameplay](/aop_screenshot.png?raw=true "Optional Title")
+
   
 # Trivia
 You may ask yourself how this rather useless code accrued. Well, here we go:  
