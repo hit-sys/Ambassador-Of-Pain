@@ -1,7 +1,11 @@
 
 LDFLAGS = -lncurses
 
-aop: aop.c
+aop: aop.o
+	$(CC) -o aop aop.c $(LDFLAGS)
+
+aop.o: aop.c
+	$(CC) -c aop.c
 
 install: aop
 	install -d /usr/local/bin
